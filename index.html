@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+
+  <body>
+    <div class="container" role="main">
+      <div class="container__left">
+        <h1 class="container__left__subject">
+          Learn to code by<br>
+          watching others
+        </h1>
+
+        <p class="container__left__paragraph">
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable.
+        </p> 
+      </div>
+
+      <div class="container__right">
+        <div class="container__right__info">
+          <span>Try it free 7 days</span> then $20/mo. thereafter
+        </div>
+
+        <form class="container__right__form">
+          <div class="form__inputdivision">
+            <input class="form__firstname" type="text" name="FirstName" placeholder="First Name">
+            <img class="form__erroricon1" src="images/icon-error.svg" alt="first name input error alert">
+          </div>
+          <p class="form__errorbox1"></p>
+
+          <div class="form__inputdivision">
+            <input class="form__lastname" type="text" name="LastName" placeholder="Last Name">
+            <img class="form__erroricon2" src="images/icon-error.svg" alt="last name input error alert">
+          </div>
+          <p class="form__errorbox2"></p>
+
+          <div class="form__inputdivision">
+            <input class="form__emailaddress" type="text" name="EmailAddress" placeholder="Email Address">
+            <img class="form__erroricon3" src="images/icon-error.svg" alt="email address input error alert">
+          </div>
+          <p class="form__errorbox3"></p>
+
+          <div class="form__inputdivision">
+            <input class="form__password" type="text" name="Password" placeholder="Password">
+            <img class="form__erroricon4" src="images/icon-error.svg" alt="password input error alert">
+          </div>
+          <p class="form__errorbox4"></p>
+
+          <button class="form__button" type="button" name="submitbtn">Claim your free trial</button> 
+
+          <div class="container__right__notice">
+            By clicking the button, you are agreeing to our<span> Terms and Services</span>
+          </div>
+        </form>
+
+      </div>
+    </div>
+
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">drunken_neoguri</a>.
+      </p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
